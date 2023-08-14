@@ -1,3 +1,21 @@
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #418bff;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+}
+
 * {
   padding: 0;
   margin: 0;
