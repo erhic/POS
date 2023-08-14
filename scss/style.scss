@@ -17,8 +17,9 @@ a{
   text-decoration: none;
 }
 .showcase{
-  background-color: $primary-color;
-  color: #fff;
+  // background-color: $primary-color;
+  // color: set-text-color($primary-color);
+  @include set-background($primary-color);
   height: 600px;
   nav{
     display: flex;
@@ -31,6 +32,9 @@ a{
     }
     li{
      padding: 15px;
+    }
+    a{
+      color: set-text-color($primary-color);
     }
     a:hover{
       color: $secondary-color;
